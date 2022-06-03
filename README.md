@@ -1,4 +1,4 @@
-# CSCI 373: Artificial Intelligence
+# CSCI 373: Artificial Intelligence (Williams College)
 ## Fall 2022
 
 
@@ -107,6 +107,7 @@ After successful completion of the course, a student should:
 | Mon Dec 5    | first-order logic              | 8.1, 8.2                           |                                    |
 | Wed Dec 7    | project presentations          |                                    |
 | Fri Dec 9    | project presentations          |                                    |
+| TBD          | exam 3                         |                                    |
 
 
 ### Reading Assignments
