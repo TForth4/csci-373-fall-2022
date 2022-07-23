@@ -20,7 +20,7 @@ Stuart Russell and Peter Norvig. Make sure to get the newest (4th) edition!
 
 ### Overview
 
-This course teaches you the algorithmic fundamentals you need, in order to be an informed, 
+This course establishes the algorithmic foundations required to become an informed, 
 well-rounded practitioner of artificial intelligence. At a high level, it 
 focuses on three types of reasoning: search-based, probabilistic, and logical. 
 While you likely have some experience with all three of these subjects in previous
@@ -37,7 +37,7 @@ the homeworks is a crucial part of learning the material.
 
 **Projects:** There will be three projects during the course. Each project is weighted
 equally and addresses one module of the course. In other words, there will be one project 
-about search-based reasoning, one exam about probabilistic reasoning, and one exam about 
+about search-based reasoning, one project about probabilistic reasoning, and one project about 
 logical reasoning. 
 
 **Exams:** There will be three exams during the course. Each exam is weighted equally 
