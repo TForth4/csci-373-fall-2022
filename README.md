@@ -32,35 +32,39 @@ then (b) sometimes successfully doing it anyway.
 ### Coursework
 
 **Homework:** There will be weekly homework assignments, typically assigned on Monday
-and due the following Monday.
+and due the following Monday. Be advised: some homeworks are rather substantial. Doing
+the homeworks is a crucial part of learning the material.
 
-**Projects:** There will be two projects during the course. The first project will be due
-approximately around the same time as the first exam, and will give you experience in 
-devising a soup-to-nuts solution to a search problem. The second project will be due during
-the final week of class, and will require you to create a graphics application that
-showcases one (or more) of the concepts introduced during the class. This second project
-is open-ended -- creativity and ambition are encouraged.
+**Projects:** There will be three projects during the course. Each project is weighted
+equally and addresses one module of the course. In other words, there will be one project 
+about search-based reasoning, one exam about probabilistic reasoning, and one exam about 
+logical reasoning. 
 
-**Exams:** There will be three exams during the course: two midterms and a 
-final. Each exam is weighted equally and covers one module of the course.
-In other words, there will be one exam about search-based reasoning, one exam about 
-probabilistic reasoning, and one exam about logical reasoning. The final will not be 
-comprehensive of the entire course and will not be worth more than the midterms. 
+**Exams:** There will be three exams during the course. Each exam is weighted equally 
+and covers one module of the course. In other words, there will be one exam about 
+search-based reasoning, one exam about probabilistic reasoning, and one exam about logical
+reasoning. 
+
 
 ### Learning Outcomes
 
 After successful completion of the course, a student should:
 
-1. Understand introductory concepts in AI search, as demonstrated by the following skills:
-  - Implement and analyze uninformed search strategies such as BFS, DFS, and depth-limited search, and bidirectional search 
-  - Implement heuristics in informed search strategies, as well as identify the aspects of a good heuristic
-  - Implement and analyze simple game search algorithms, e.g. minimax and alpha-beta pruning
-2. Understand introductory concepts in probabilistic models and reinforcement learning, as demonstrated by the following skills:
-  - Construct probabilistic models of uncertainty and compute/understand associated concepts like d-separation.
-  - Implement a reinforcement learning engine for a simple scenario, like learning to play blackjack.
-3. Understand introductory concepts in AI logic, as demonstrated by the following skills:
-  - Express logical statements using propositional and first-order logic, and understand the ontological difference between propositional and first-order logics. 
-  - Apply and analyze logical inference algorithms, such as resolution and forward/backward chaining 
+1. Gain facility with search-based reasoning, as demonstrated by the ability to:
+  - express a novel reasoning task as a search space
+  - know when and how to apply search strategies such as BFS, DFS, iterative deepening, and A*
+  - know when and how to apply game search strategies such as minimax, alpha-beta, and expectimax
+2. Gain facility with probabilistic reasoning and reinforcement learning, as demonstrated by the ability to:
+  - express a novel reasoning task as an appropriate probabilistic graphical model
+  - read the structure of a Bayesian network (e.g. identify independence relationships, inferential complexity)
+  - implement a temporal model to solve a real-time task
+  - implement a reinforcement learner for a simple task (i.e. a task whose associated state space has <1000 states)
+3. Gain facility with logical reasoning, as demonstrated by the ability to:
+  - translate English statements into propositional and first-order logic
+  - know when and how to apply logical inference procedures, including resolution and DPLL
+  - analyze the worst-case time and space requirements of inference on a logical statement
+  - express logical statements in equivalent forms (e.g. CNF)
+  - identify relationships between logical statements (e.g. equivalence, entailment)
 
 
 ### Lecture Schedule (tentative, subject to change)
