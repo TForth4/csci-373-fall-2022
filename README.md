@@ -15,8 +15,7 @@ Stuart Russell and Peter Norvig. Make sure to get the newest (4th) edition!
 
 **Website:** [http://markandrewhopkins.com/csci-373-artificial-intelligence/](http://markandrewhopkins.com/csci-373-artificial-intelligence/)
 
-**Course Information Sheet**:  [here](https://github.com/Mark-Hopkins-at-Reed/csci-377/blob/master/CSCI377CourseInfoSheet.pdf)
-
+**Course Information Sheet**:  [here](https://docs.google.com/document/d/1umo-FwRfV2CT3SBygofSQ59Obb-n7zAU5SH1Zr4T8PQ/edit?usp=sharing)
 
 ### Overview
 
