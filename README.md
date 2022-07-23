@@ -49,16 +49,16 @@ reasoning.
 
 After successful completion of the course, a student should:
 
-1. Gain facility with search-based reasoning, as demonstrated by the ability to:
+1. Have facility with search-based reasoning, as demonstrated by the ability to:
   - express a novel reasoning task as a search space
   - know when and how to apply search strategies such as BFS, DFS, iterative deepening, and A*
   - know when and how to apply game search strategies such as minimax, alpha-beta, and expectimax
-2. Gain facility with probabilistic reasoning and reinforcement learning, as demonstrated by the ability to:
+2. Have facility with probabilistic reasoning and reinforcement learning, as demonstrated by the ability to:
   - express a novel reasoning task as an appropriate probabilistic graphical model
   - read the structure of a Bayesian network (e.g. identify independence relationships, inferential complexity)
   - implement a temporal model to solve a real-time task
   - implement a reinforcement learner for a simple task (i.e. a task whose associated state space has <1000 states)
-3. Gain facility with logical reasoning, as demonstrated by the ability to:
+3. Have facility with logical reasoning, as demonstrated by the ability to:
   - translate English statements into propositional and first-order logic
   - know when and how to apply logical inference procedures, including resolution and DPLL
   - analyze the worst-case time and space requirements of inference on a logical statement
