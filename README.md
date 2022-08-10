@@ -30,19 +30,32 @@ then (b) sometimes successfully doing it anyway.
 
 ### Coursework
 
-**Homework:** There will be weekly homework assignments, typically assigned on Monday
+**Homework (40%):** There will be weekly homework assignments, typically assigned on Monday
 and due the following Monday. Be advised: some homeworks are rather substantial. Doing
 the homeworks is a crucial part of learning the material.
 
-**Projects:** There will be three projects during the course. Each project is weighted
-equally and addresses one module of the course. In other words, there will be one project 
-about search-based reasoning, one project about probabilistic reasoning, and one project about 
-logical reasoning. 
+**Projects (30%, 10% each):** There will be three projects during the course. Each project is
+weighted equally and addresses one module of the course. In other words, there will be one
+project about search-based reasoning, one project about probabilistic reasoning, and one
+project about logical reasoning. 
 
-**Exams:** There will be three exams during the course. Each exam is weighted equally 
-and covers one module of the course. In other words, there will be one exam about 
+The projects will be done in groups of two. Each project will be due approximately one week 
+after the exam for that module. In addition to submitting your project code online, each group 
+will meet with me for 20 minutes, during which you will present your design and answer
+questions about the design decisions that you made.
+
+**Exams (30%, 10% each):** There will be three exams during the course. Each exam is weighted
+equally and covers one module of the course. In other words, there will be one exam about 
 search-based reasoning, one exam about probabilistic reasoning, and one exam about logical
-reasoning. 
+reasoning.
+
+The exams must be done individually, without consulting other students or external resources
+on the Internet. However, you are welcome to consult your course notes and provided course
+materials (including the textbook) while writing the exams. The exams will be designed to
+be completed during a 50-minute class period, and you will be given a free class
+period to complete each exam. However, the exams will be "take-home", and need only be submitted
+sometime before midnight on the day they are assigned. You are free to use as much extra time 
+as you need on the day of the exam.
 
 
 ### Learning Outcomes
