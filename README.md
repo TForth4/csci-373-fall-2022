@@ -108,9 +108,8 @@ After successful completion of the course, a student should:
 | Wed Nov 30   | resolution                     | 7.5.2                              |
 | Fri Dec 2    | dpll                           | 7.6.1, 7.6.3                       |
 | Mon Dec 5    | first-order logic              | 8.1, 8.2                           |                                    |
-| Wed Dec 7    | project presentations          |                                    |
-| Fri Dec 9    | project presentations          |                                    |
-| TBD          | exam 3                         |                                    |
+| Wed Dec 7    | first-order logic              |                                    |
+| Fri Dec 9    | exam 3                         |                                    |
 
 
 ### Reading Assignments
