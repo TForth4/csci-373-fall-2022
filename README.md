@@ -11,7 +11,8 @@
 **Office Hours:** TBD.
 
 **Textbook:** Artificial Intelligence: A Modern Approach (4th edition) by 
-Stuart Russell and Peter Norvig. Make sure to get the newest (4th) edition! 
+Stuart Russell and Peter Norvig. Make sure to get the newest (4th) edition!
+The textbook has a Kindle version.
 
 **Website:** [http://markandrewhopkins.com/csci-373-artificial-intelligence/](http://markandrewhopkins.com/csci-373-artificial-intelligence/)
 
@@ -31,8 +32,9 @@ then (b) sometimes successfully doing it anyway.
 ### Coursework
 
 **Homework (40%):** There will be weekly homework assignments, typically assigned on Monday
-and due the following Monday. Be advised: some homeworks are rather substantial. Doing
-the homeworks is a crucial part of learning the material.
+and due the following Monday (though there will be exceptions). Be advised: some 
+homeworks are rather substantial. Doing the homeworks is a crucial part of learning 
+the material.
 
 **Projects (30%, 10% each):** There will be three projects during the course. Each project is
 weighted equally and addresses one module of the course. In other words, there will be one
@@ -66,13 +68,16 @@ After successful completion of the course, a student should:
   - express a novel reasoning task as a search space
   - know when and how to apply search strategies such as BFS, DFS, iterative deepening, and A*
   - know when and how to apply game search strategies such as minimax, alpha-beta, and expectimax
+  - analyze the worst-case time and space requirements of a search strategy on a search space
+  - develop good search heuristics, and be able to determine their admissibility
 2. Have facility with probabilistic reasoning and reinforcement learning, as demonstrated by the ability to:
   - express a novel reasoning task as an appropriate probabilistic graphical model
   - read the structure of a Bayesian network (e.g. identify independence relationships, inferential complexity)
+  - implement exact and approximate algorithms for probabilistic inference
   - implement a temporal model to solve a real-time task
   - implement a reinforcement learner for a simple task (i.e. a task whose associated state space has <1000 states)
 3. Have facility with logical reasoning, as demonstrated by the ability to:
-  - translate English statements into propositional and first-order logic
+  - translate English statements into propositional logic
   - know when and how to apply logical inference procedures, including resolution and DPLL
   - analyze the worst-case time and space requirements of inference on a logical statement
   - express logical statements in equivalent forms (e.g. CNF)
@@ -83,45 +88,45 @@ After successful completion of the course, a student should:
 
 | Date         | Topic                          | Reading (AIMA 4th edition)         |
 | ------------ | ---------------------------    | ---------------------------------- |
-| Fri Sep 9    | search spaces                  | 3.1, 3.2                           |
-| Mon Sep 12   | uninformed search              | 3.3.1 - 3.3.3                      |
+| Fri Sep 9    | course intro                   |                                    |
+| Mon Sep 12   | search spaces                  | 3.1, 3.2, 3.3.1 - 3.3.3            |
 | Wed Sep 14   | breadth-first search           | 3.4.1                              |
 | Fri Sep 16   | UCS and DFS                    | 3.4.2, 3.4.3                       |
-| Mon Sep 19   | heuristic search               | 3.5.1, 3.5.2                       |
-| Wed Sep 21   | heuristics                     | 3.6                                |
-| Fri Sep 23   | analysis of search             | 3.3.4                              |
-| Mon Sep 26   | iterative deepening            | 3.4.4                              |
-| Wed Sep 28   | minimax                        | 5.1, 5.2.1, 5.2.2                  |
-| Fri Sep 30   | expectimax                     | 5.5                                |
-| Mon Oct 3    | alpha-beta                     | 5.2.3, 5.3                         |
-| Wed Oct 5    | monte carlo tree search        | 5.4                                |
-| Fri Oct 7    | exam 1                         |                                    |
-| Mon Oct 10   | holiday                        |                                    |
+| Mon Sep 19   | analysis of search             | 3.3.4                              |
+| Wed Sep 21   | iterative deepening            | 3.4.4                              |
+| Fri Sep 23   | minimax                        | 5.1, 5.2, 5.3                      |
+| Mon Sep 26   | expectimax                     | 5.5                                |
+| Wed Sep 28   | heuristic search               | 3.5.1, 3.5.2                       |
+| Fri Sep 30   | heuristics                     | 3.6                                |
+| Mon Oct 3    | exam 1                         |                                    |
+| Wed Oct 5    | exam 1 review                  |                                    |
+| Fri Oct 7    | mountain day?                  |                                    |
+| Mon Oct 10   | reading period                 |                                    |
 | Wed Oct 12   | probability                    | 12.1 - 12.5                        |
 | Fri Oct 14   | bayesian networks              | 13.1, 13.2.1, 13.2.2, 13.2.4       |
 | Mon Oct 17   | variable elimination           | 13.3.1, 13.3.2                     |
 | Wed Oct 19   | complexity of inference        | 13.3.3                             |
-| Fri Oct 21   | temporal models                | 14.1, 14.2                         |
-| Mon Oct 24   | particle filtering             | 13.4.1, 14.5                       |
-| Wed Oct 26   | gaussians                      | 13.2.3, A.3                        |
-| Fri Oct 28   | kalman filters                 | 14.4                               |
-| Mon Oct 31   | markov decision processes      | 17.1, 17.1.1                       |
-| Wed Nov 2    | bellman equations              | 17.1.2                             |
-| Fri Nov 4    | value iteration                | 17.2.1                             |
-| Mon Nov 7    | passive reinforcement learning | 22.1                               |                                    |
-| Wed Nov 9    | active reinforcement learning  | 22.2                               |
-| Fri Nov 11   | policy iteration               | 17.2.2                             |
-| Mon Nov 14   | exam 2                         |                                    |                                    |
-| Wed Nov 16   | truth table inference          | 7.1, 7.2                           |
-| Fri Nov 18   | language and semantics         | 7.3                                |
-| Mon Nov 21   | propositional logic            | 7.4                                |                                    |
+| Fri Oct 21   | approximate inference          | TBD                                |
+| Mon Oct 24   | gaussians                      | 13.2.3, A.3                        |
+| Wed Oct 26   | kalman filters                 | 14.4                               |
+| Fri Oct 28   | markov decision processes      | 17.1, 17.1.1                       |
+| Mon Oct 31   | bellman equations              | 17.1.2                             |
+| Wed Nov 2    | value iteration                | 17.2.1                             |
+| Fri Nov 4    | passive reinforcement learning | 22.1                               |                                    
+| Mon Nov 7    | active reinforcement learning  | 22.2                               |
+| Wed Nov 9    | ethics                         |                                    |
+| Fri Nov 11   | ethics                         |                                    |
+| Mon Nov 14   | exam 2                         |                                    |                                    
+| Wed Nov 16   | exam 2 review                  |                                    |                                    
+| Fri Nov 18   | truth table inference          | 7.1, 7.2                           |
+| Mon Nov 21   | language and semantics         | 7.3                                |
 | Wed Nov 23   | thanksgiving break             |                                    |
 | Fri Nov 25   | thanksgiving break             |                                    |
-| Mon Nov 28   | propositional inference        | 7.5.0, 7.5.1                       |                                    |
-| Wed Nov 30   | resolution                     | 7.5.2                              |
-| Fri Dec 2    | dpll                           | 7.6.1, 7.6.3                       |
-| Mon Dec 5    | first-order logic              | 8.1, 8.2                           |                                    |
-| Wed Dec 7    | first-order logic              |                                    |
+| Mon Nov 28   | propositional logic            | 7.4                                |                                    
+| Wed Nov 30   | propositional inference        | 7.5.0, 7.5.1                       |                                    
+| Fri Dec 2    | resolution                     | 7.5.2                              |
+| Mon Dec 5    | dpll                           | 7.6.1, 7.6.3                       |
+| Wed Dec 5    | logic and probability          | TBD                                |                                    
 | Fri Dec 9    | exam 3                         |                                    |
 
 
@@ -131,10 +136,26 @@ Reading assignments will be posted on the website a minimum of two days
 in advance of each lecture. I will assume that the reading is done prior 
 to lecture. 
 
+### Collaboration Policy
 
-### Disability Accommodation
+Follow[^1] the spirit of the [50 ft rule](http://courses.cms.caltech.edu/cs171/materials/pdfs/50ft_policy.pdf),
+except on exams, where you should neither collaborate nor use external resources.
 
-If you have a disability for which you are or may be requesting an
-accommodation, you are encouraged to contact both your professor and the
-Office of Disability Support Services.
+[^1]: Thanks to Jim Bern for the pointer.
 
+
+### Inclusivity
+
+This course aspires to be a welcoming environment for all students. Please let me
+know if any issues arise, and I will do my best to address them.
+
+
+### Health/Accessibility Resources
+
+Students with disabilities or disabling conditions who experience barriers in this
+course are encouraged to contact me to discuss options for access and full course 
+participation. The Office of Accessible Education is also available to facilitate 
+the removal of barriers and to ensure access and reasonable accommodations.  
+Students with documented disabilities or disabling conditions of any kind who may 
+need accommodations for this course or who have questions about appropriate resources 
+are encouraged to contact the Office of Accessible Education at oaestaff@williams.edu.
