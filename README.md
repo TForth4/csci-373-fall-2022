@@ -18,6 +18,7 @@ The textbook has a Kindle version.
 
 **Course Information Sheet**:  [here](https://docs.google.com/document/d/1umo-FwRfV2CT3SBygofSQ59Obb-n7zAU5SH1Zr4T8PQ/edit?usp=sharing)
 
+
 ### Overview
 
 This course establishes the algorithmic foundations required to become an informed, 
@@ -41,8 +42,8 @@ weighted equally and addresses one module of the course. In other words, there w
 project about search-based reasoning, one project about probabilistic reasoning, and one
 project about logical reasoning. 
 
-The projects will be done in groups of two. Each project will be due approximately one week 
-after the exam for that module. In addition to submitting your project code online, each group 
+The projects will be done in groups of two. Each project will be due shortly after the
+end of its corresponding module. In addition to submitting your project code online, each group 
 will meet with me for 20 minutes, during which you will present your design and answer
 questions about the design decisions that you made.
 
@@ -155,7 +156,7 @@ know if any issues arise, and I will do my best to address them.
 Students with disabilities or disabling conditions who experience barriers in this
 course are encouraged to contact me to discuss options for access and full course 
 participation. The Office of Accessible Education is also available to facilitate 
-the removal of barriers and to ensure access and reasonable accommodations.  
-Students with documented disabilities or disabling conditions of any kind who may 
-need accommodations for this course or who have questions about appropriate resources 
-are encouraged to contact the Office of Accessible Education at oaestaff@williams.edu.
+the removal of barriers and to ensure access and reasonable accommodations. Students with 
+documented disabilities or disabling conditions of any kind who may need accommodations 
+for this course or who have questions about appropriate resources are encouraged to 
+contact the Office of Accessible Education at oaestaff@williams.edu.
